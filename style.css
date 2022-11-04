@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright-container {
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(141, 248, 234);
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    color: white;
+  }
