@@ -28,7 +28,9 @@
     margin: 0,0,5px,0;
 }
 
-
+.float-end {
+    float: right !important;
+}
 
 .copyright-container {
     box-sizing: border-box;

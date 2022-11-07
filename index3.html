@@ -1,33 +1,94 @@
-<form>
-    <!-- email -->
-    <div class="row g-3 align-items-center">
-      <div class="col-auto">
-      <label for="exampleInputEmail1" class="col-form-label">Email address</label>
-    </div>
-    <div class="col-auto">
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    </div>
-    <div class="col-auto">
-      <span id="emailHelp" class="form-text">We'll never share your email with anyone else.</span>
-    </div>
-  </div>
-    <!-- password -->
-    <div class="row g-3 align-items-center">
-      <div class="col-auto">
-        <label for="inputPassword6" class="col-form-label">Password</label>
-      </div>
-      <div class="col-auto">
-        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-      </div>
-      <div class="col-auto">
-        <span id="passwordHelpInline" class="form-text">
-          Must be 8-20 characters long.
-        </span>
-      </div>
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+      <!doctype html>
+          <html lang="en">
+            <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <title>My Breeds</title>
+              <link rel="stylesheet" href="./style.css">
+              <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+            </head>
+            <body>
+              <!-- Header NAVBAR -->
+            <header>
+              <nav class="navbar navbar-expand-md 
+              navbar-dark bg-info">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">My Breeds
+                    <img src="https://tse1.explicit.bing.net/th?id=OIP.DiIJOTj-0YvEPE91k90MnAHaHT&pid=Api&P=0" alt="My Breeds Logo" height="30">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <!-- NAVBAR LINKS -->
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link" href="index1.html">About me</a>
+                      <a class="nav-link" href="index2.html">My Gallary</a>
+                      <a class="nav-link" href="index3.html">Contact Me</a>
+                    </div>
+                  </div>
+                  <!-- SEARCH BOX -->
+                  <form class="d-flex">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search site"/>
+                    <button class="btn btn-primary" type="submit">
+                      Search
+                    </button>
+                  </form>
+                </div>
+              </nav>
+            </header>
+        <form>
+          <!-- Contact -->
+          <div class="container-box">
+            <h2>Contact</h2>
+          </div>
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+            <label for="exampleInputName" class="col-form-label">Name</label>
+            <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" size="40">
+        </div>
+        </div>
+
+          <!-- Email -->
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="exampleInputEmail" class="col-form-label">Email</label>
+            <input type="Email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" size="40">
+            </div>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+          <!-- Subscribe -->
+        <div class="row">
+        <div class="col">
+          <nav class="nav justify-content-center">
+            <a class="nav-link" href="https://instagram.com/lucky_luckybichon?igshid=YmMyMTA2M2Y=">Subscribe</a>
+          </nav>
+        </div>
+        </div>
+
+        <!-- Back to Top & Copy right -->
+        <footer>
+          <div class="container">
+            <p class="float-end-mb-1">
+              <a href="#">Back to Top</a>
+            </p>
+          </div>
+          <div class="copyright-container">
+            <div class="justify-content-center">
+              <p class="header">
+                Copyright &copy; 2022 ThewodrosB. - All Rights Reserved.</p>
+            </div>
+          </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        </body>
+      </html>
